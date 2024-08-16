@@ -1,0 +1,52 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: auto;
+}
+
+.navbar {
+  margin-bottom: 50px;
+  background-color: rgb(47, 45, 45);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user-btn {
+  background-color: #007bff;
+  height: 80px;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.clicked {
+  background-color: #2088ff;
+  opacity: 0.6;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.comment-block {
+  background: #ebe5e5;
+  width: 400px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 10px;
+}
+
+.comment-block p {
+  font-size: 1.6em;
+  line-height: 1.9;
+  color: rgb(88, 88, 88);
+  color: chocolate;
+}
